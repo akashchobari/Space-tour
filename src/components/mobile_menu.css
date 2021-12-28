@@ -1,0 +1,28 @@
+.mobile_menu_sidebar {
+    background-color: grey;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 16rem;
+    backdrop-filter: blur(30px);
+  }
+  
+
+.mobile_menu_sidebar ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 8rem;
+}
+
+.mobile_menu_sidebar a {
+    display: block;
+    height: 3rem;
+    text-align: justify;
+    text-justify: distribute;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}

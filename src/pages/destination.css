@@ -1,0 +1,195 @@
+.destination-main{
+    height: 100vh;
+    width: 100%;
+    background:url(../assets/destination/background-destination-mobile.jpg) no-repeat center ;
+    background-size: cover;
+    letter-spacing: 1px;
+}
+
+.destination-main h1 {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.destination-sub{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.destination_moon {
+    width: 9rem;
+    height: 9rem;
+    background: url(../assets/destination/image-moon.webp) no-repeat center;
+    background-size: cover;
+}
+.destination_mars {
+    width: 9rem;
+    height: 9rem;
+    background: url(../assets/destination/image-mars.webp) no-repeat center;
+    background-size: cover;
+}
+.destination_europa {
+    width: 9rem;
+    height: 9rem;
+    background: url(../assets/destination/image-europa.webp) no-repeat center;
+    background-size: cover;
+}
+.destination_titan {
+    width: 9rem;
+    height: 9rem;
+    background: url(../assets/destination/image-titan.webp) no-repeat center;
+    background-size: cover;
+}
+
+.navbar_destination {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 0.5rem;
+    width: 80%;
+    font-size: 0.6rem;
+    margin-bottom: 0rem;
+    margin-left: 1.5rem;
+}
+
+.navbar_destination a{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+.line{
+    width: 80%;
+    height: 0.5px;
+    background-color: lightgrey;
+    display: flex;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#name {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.destination-card p{
+    font-size: 0.8rem;
+}
+
+.destination-card h3{
+    font-size: 0.7rem;
+    font-weight: 300;
+    margin: 0;
+}
+.destination-card h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 0.2rem; 
+    margin-bottom: 0.9rem;
+}
+
+@media (min-width:768px){
+    .destination-main {
+        background:url(../assets/destination/background-destination-tablet.jpg) no-repeat center ;
+    }
+    .destination-main h1{
+        text-align: justify;
+        text-justify: distribute;
+        margin-top: 2rem;
+    }
+
+    .destination_moon {
+        width: 13rem;
+        height: 13rem;
+    }
+}
+
+/* desktop screen */
+@media (min-width:1200px){
+    .destination-main {
+        background:url(../assets/destination/background-destination-desktop.jpg) no-repeat center ;
+        background-size: cover;
+    }
+
+    .destination-main h1{
+        margin-left: 13rem;
+        font-size: 1.5rem;
+    }
+
+    .destination-sub{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 5rem;
+    }
+    
+
+    .destination_moon {
+        width: 24rem;
+        height: 24rem;
+        background: url(../assets/destination/image-moon.png) no-repeat center;
+        background-size: cover;
+    }
+    .destination_mars {
+        width: 24rem;
+        height: 24rem;
+        background: url(../assets/destination/image-mars.png) no-repeat center;
+        background-size: cover;
+    }
+    .destination_europa {
+        width: 24rem;
+        height: 24rem;
+        background: url(../assets/destination/image-europa.png) no-repeat center;
+        background-size: cover;
+    }
+    .destination_titan {
+        width: 24rem;
+        height: 24rem;
+        background: url(../assets/destination/image-titan.png) no-repeat center;
+        background-size: cover;
+    }
+
+    .destination-card {
+        flex-direction: column;
+        width: 30%;
+        text-align: justify;
+        text-justify: distribute;
+    }
+
+    #name {
+        font-size: 5rem;
+    }
+    .navbar_destination {
+        font-size: 1rem;
+        margin: 0;
+        padding: 0;
+    }
+    .navbar-destination-content{
+        margin-left: 1rem;    
+    }
+    .navbar-destination-content p{
+        font-size: 0.9rem; 
+    }
+    .navbar-destination-content h3{
+        font-size: 0.9rem; 
+    }
+
+    .line {
+        width: 100%;
+        margin: 3rem 0 2rem 0;
+    }
+
+    .distance-time{
+        display: flex;
+    }
+
+    .average_time{
+        margin-left: 2rem;
+    }
+    
+} 

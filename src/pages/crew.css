@@ -1,0 +1,199 @@
+.crew-main {
+    height: 100vh;
+    background: url(../assets/crew/background-crew-mobile.jpg) no-repeat;
+    background-size: cover;
+}
+
+.crew-sub-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin : 0 1rem;
+}
+
+.crew-sub-main h3:first-child{
+    font-weight: 400;
+}
+.crew-sub-main h3 span:first-child{
+    color: rgb(134, 134, 134);
+    font-weight: 500;
+}
+
+
+.crew-douglas-img {
+    width: 12rem;
+    height: 17rem;
+    background: url(../assets/crew/image-douglas-hurley.webp) no-repeat center;
+    background-size: cover;
+    margin-left: 3rem;
+}
+.mark-shuttleworth-img {
+    width: 11rem;
+    height: 16rem;
+    background: url(../assets/crew/image-mark-shuttleworth.webp) no-repeat center;
+    background-size: cover;
+    margin-left: 3rem;
+}
+.victor-glover-img {
+    width: 13rem;
+    height: 15.5rem;
+    background: url(../assets/crew/image-victor-glover.webp) no-repeat center;
+    background-size: cover;
+    margin-left: 3rem;
+}
+.anousheh-ansari-img {
+    width: 14rem;
+    height: 15rem;
+    background: url(../assets/crew/image-anousheh-ansari.webp) no-repeat center;
+    background-size: cover;
+    margin-left: 3rem;
+}
+
+.crew-line{
+    width: 90%;
+    height: 1px;
+    background-color: white;
+}
+
+.carousel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.carousel ul {
+    width: 30%;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: space-evenly;
+    margin-right: 1rem;
+}
+
+.carousel li{
+    width: 0.7rem;
+    height: 0.7rem;
+    background: grey;
+    border-radius: 100%;
+    margin-left: 1rem;
+}
+
+.active-item-0{
+    background: white;
+}
+.active-item-1{
+    background: white;
+}
+.active-item-2{
+    background: white;
+}
+.active-item-3{
+    background: white;
+}
+
+.crew-card h2{
+    margin: 3px 0;
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: rgb(134, 134, 134);
+}
+
+.crew-card h1 {
+    margin: 0 0 1rem 0;
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+.crew-card p {
+    font-size: 0.9rem;
+    color: rgb(134, 134, 134);
+}
+
+@media (min-width: 1200px){
+    .crew-sub-main h3:first-child{
+        font-size: 1.4rem;
+        font-weight: 400;
+        width: 100%;
+        text-align: justify;
+        text-justify: distribute;
+        margin-top: 3rem;
+        margin-left: 17rem;
+    }
+
+    .desktop-crew-content {
+        margin : 0 1rem;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .desktop-description-card {
+        margin-top: 3rem;
+        width: 41%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .crew-douglas-img {
+        width: 24rem;
+        height: 33rem;
+        background: url(../assets/crew/image-douglas-hurley.png) no-repeat center;
+        background-size: cover;
+        margin-left: 3rem;
+    }
+
+    .mark-shuttleworth-img {
+        width: 18rem;
+        height: 30rem;
+        background: url(../assets/crew/image-mark-shuttleworth.png) no-repeat center;
+        background-size: cover;
+        margin-left: 3rem;
+    }
+    .victor-glover-img {
+        width: 24rem;
+        height: 28rem;
+        background: url(../assets/crew/image-victor-glover.png) no-repeat center;
+        background-size: cover;
+        margin-left: 3rem;
+    }
+    .anousheh-ansari-img {
+        width: 24rem;
+        height: 26rem;
+        background: url(../assets/crew/image-anousheh-ansari.png) no-repeat center;
+        background-size: cover;
+        margin-left: 3rem;
+    }
+
+    .crew-card {
+        text-align: justify;
+        text-justify: distribute;
+        margin-bottom: 5rem;
+        padding: 0 2px;
+    }
+
+    .crew-card h2 {
+        font-size: 1.7rem;
+    }
+    
+    .crew-card h1{
+        font-size: 2.7rem;
+        letter-spacing: 2px;
+        margin-bottom: 1.7rem;
+    }
+
+    .crew-card p {
+        font-size: 0.8rem;
+        line-height: 20px;
+        letter-spacing: 2px;
+    }
+    .carousel {
+        justify-content: flex-start;
+    }
+    .carousel li{
+        margin-left: 0;
+        margin-right: 1rem;
+    }
+    
+    
+    
+}
